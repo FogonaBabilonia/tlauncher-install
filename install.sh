@@ -6,7 +6,7 @@ download_tl() {
 }
 
 download_icon() {
-	wget https://i.imgur.com/yN4ciBD.png
+	curl https://i.imgur.com/yN4ciBD.png -o yN4ciBD.png
 }
 
 create_entry() {
